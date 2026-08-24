@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REIVY｜フェイシャルワックスで素肌を整える</title>
+<!-- EDIT: 所在地確定後は「REIVY｜〇〇市のフェイシャルワックスサロン」のように地域名を追加してください -->
+<meta name="description" content="究極のクレンジングで、素肌レベルを上げる。産毛・古い角質・毛穴汚れをやさしく取り除くマリムーブフェイシャルワックス専門サロンREIVY（リ・アイビー）。忙しい毎日から、自分に戻るひとときを。">
+
+<!-- OGP -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="REIVY｜フェイシャルワックスで素肌を整える">
+<meta property="og:description" content="究極のクレンジングで、素肌レベルを上げる。産毛・古い角質・毛穴汚れをやさしく取り除くフェイシャルワックスサロンREIVY。">
+<!-- EDIT: OGP画像URL、canonical URLを本番ドメイン確定後に設定してください -->
+<meta property="og:image" content="images/fv/hero-main.jpg">
+<link rel="canonical" href="https://example.com/">
+
+<link rel="icon" href="images/favicon.ico"> <!-- EDIT: favicon差し替え -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========================= -->
+<!-- ヘッダー -->
+<!-- ========================= -->
+<header class="site-header" id="siteHeader">
+  <div class="site-logo">REIVY<span>Facial Wax Salon</span></div>
+  <a href="#pricing" class="header-cta">予約する</a>
+</header>
+
+<!-- ========================= -->
+<!-- SECTION 01: ファーストビュー -->
+<!-- ========================= -->
+<section class="hero" id="hero">
+  <div class="hero-media">
+    <!-- REPLACE: ファーストビュー動画（差し替える場合は images/fv/hero-video.mp4 を置き換えてください） -->
+    <!-- poster: 動画読み込み前・再生不可時のフォールバック画像 -->
+    <video
+      class="hero-video"
+      poster="images/fv/hero-main.jpg"
+      autoplay
+      muted
+      loop
+      playsinline
+      webkit-playsinline="true"
+      x5-playsinline="true"
+      disablePictureInPicture
+      preload="auto"
+      aria-hidden="true">
+      <source src="images/fv/hero-video.mp4" type="video/mp4">
+    </video>
+    <!-- 動画が再生できないブラウザ向けフォールバック画像 -->
+    <img class="hero-fallback-img" src="images/fv/hero-main.jpg" alt="自然光の中でくつろぐ女性の柔らかな素肌の写真" loading="eager">
+  </div>
+  <div class="hero-content reveal">
+    <p class="hero-eyebrow">REIVY Facial Wax / Mari Move Facial Wax</p>
+    <h1 class="hero-title">究極のクレンジングで<br>素肌レベルを上げる</h1>
+    <p class="hero-sub">産毛・古い角質・毛穴汚れをやさしく取り除き、<br>思わず触れたくなる素肌へ。</p>
+    <div class="hero-cta-group">
+      <a href="#pricing" class="btn btn-primary">初回体験の詳細を見る</a>
+      <!-- EDIT: LINE URL は js/main.js の LINE_URL で一括変更できます -->
+      <a href="#" class="btn btn-outline js-line-btn">LINEで予約する</a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<!-- ========================= -->
+<!-- SECTION 02: 共感・悩み -->
+<!-- ========================= -->
+<section class="section" id="problems">
+  <div class="section-inner">
+    <p class="eyebrow reveal">SYMPTOM</p>
+    <h2 class="section-heading reveal">こんなお肌のお悩み<br>ありませんか？</h2>
+    <ul class="problems-grid">
+      <li class="problem-card reveal"><span class="mark">✓</span><p>鼻や頬の毛穴が目立つ、黒ずみが気になる</p></li>
+      <li class="problem-card reveal"><span class="mark">✓</span><p>顔全体がなんとなくくすんで見える</p></li>
+      <li class="problem-card reveal"><span class="mark">✓</span><p>昔より肌にハリ・ツヤがない気がする</p></li>
+      <li class="problem-card reveal"><span class="mark">✓</span><p>最近シミが増えてきた気がする</p></li>
+      <li class="problem-card reveal"><span class="mark">✓</span><p>ファンデーションのノリが悪く、崩れやすい</p></li>
+      <li class="problem-card reveal"><span class="mark">✓</span><p>肌がゴワつき、ザラつきを感じる</p></li>
+      <li class="problem-card reveal"><span class="mark">✓</span><p>スキンケアを頑張っているのに実感しにくい</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 03: 問題提起 -->
+<!-- ========================= -->
+<section class="section" id="problem-statement">
+  <div class="section-inner">
+    <p class="eyebrow reveal">BEFORE SKINCARE</p>
+    <h2 class="section-heading reveal">高いスキンケアを足す前に<br>一度「肌に残っているもの」に<br>目を向けてみませんか？</h2>
+    <div class="statement-block reveal">
+      <p>肌の表面には、日々のお手入れだけでは落としきれない産毛や古い角質、毛穴に詰まった汚れが少しずつ蓄積していきます。</p>
+      <ul class="statement-list">
+        <li>産毛</li>
+        <li>古い角質</li>
+        <li>毛穴汚れ</li>
+      </ul>
+      <p>一生懸命スキンケアを重ねることも大切ですが、その前に、肌に残っている不要なものをやさしく取り除き、素肌そのものを整えるという考え方があります。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 04: 解決策 -->
+<!-- ========================= -->
+<section class="section" id="solution">
+  <div class="section-inner">
+    <div class="solution-panel reveal">
+      <p class="eyebrow">SOLUTION</p>
+      <h2 class="section-heading">そこでREIVYが提案するのが<br>「究極のクレンジング」です</h2>
+      <p>REIVY Facial Wax（マリムーブ フェイシャルワックス）は、単なる脱毛ではありません。<br>産毛・古い角質・毛穴汚れをやさしく取り除きながら、<strong>素肌の土台を整えるフェイシャルケア</strong>です。</p>
+      <div class="solution-product-photo">
+        <img src="images/product/h2switch-cream-set.jpg" alt="REIVYで使用するフェイシャルワックスとインテンシブモイスチャライジングクリーム">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 05: 何を取り除くのか -->
+<!-- ========================= -->
+<section class="section" id="remove">
+  <div class="section-inner">
+    <p class="eyebrow reveal">WHAT WE REMOVE</p>
+    <h2 class="section-heading reveal">取り除くのはこの3つ</h2>
+    <div class="remove-flow">
+      <div class="remove-item reveal">
+        <span class="num">01</span>
+        <div>
+          <p class="label">産毛</p>
+          <p class="desc">顔全体をやさしく覆う産毛を根元からオフ</p>
+        </div>
+      </div>
+      <div class="remove-arrow reveal">＋</div>
+      <div class="remove-item reveal">
+        <span class="num">02</span>
+        <div>
+          <p class="label">古い角質</p>
+          <p class="desc">くすみの原因になりやすい古い角質を一緒に除去</p>
+        </div>
+      </div>
+      <div class="remove-arrow reveal">＋</div>
+      <div class="remove-item reveal">
+        <span class="num">03</span>
+        <div>
+          <p class="label">毛穴汚れ</p>
+          <p class="desc">毛穴に溜まった汚れもやさしくオフ</p>
+        </div>
+      </div>
+    </div>
+    <p class="remove-result reveal">↓ なめらかな素肌へ</p>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 06: 期待できること -->
+<!-- ========================= -->
+<section class="section" id="benefits">
+  <div class="section-inner">
+    <p class="eyebrow reveal">EXPECTATION</p>
+    <h2 class="section-heading reveal">フェイシャルワックス後に<br>期待できること</h2>
+    <ul class="benefits-grid">
+      <li class="benefit-card reveal">肌にツヤが出て、触り心地が変わる</li>
+      <li class="benefit-card reveal">くすみが取れたような、明るい印象に</li>
+      <li class="benefit-card reveal">スキンケアがなじみやすくなる</li>
+      <li class="benefit-card reveal">化粧ノリが良くなる</li>
+      <li class="benefit-card reveal">フェイスラインがすっきり見える</li>
+      <li class="benefit-card reveal">カミソリより毛の再生までの期間が長く感じやすい</li>
+      <li class="benefit-card reveal">毛が伸び始めてもチクチクしにくい</li>
+      <li class="benefit-card reveal">継続することで毛質の変化を感じる方もいる</li>
+    </ul>
+    <p class="note-disclaimer reveal">※効果の感じ方には個人差があります</p>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 07: Before / After -->
+<!-- ========================= -->
+<section class="section" id="before-after">
+  <div class="section-inner">
+    <p class="eyebrow reveal">BEFORE / AFTER</p>
+    <h2 class="section-heading reveal">変化を見てください</h2>
+    <p class="section-lead reveal">中央のバーを左右にドラッグすると、施術前後を比較できます。</p>
+
+    <div class="ba-slider reveal" id="baSlider">
+      <!-- REPLACE: Before/After比較写真（施術前） -->
+      <img class="ba-before-img" src="images/before-after/case1-before.jpg" alt="施術前の頬周りの写真">
+      <div class="ba-after-wrap">
+        <!-- REPLACE: Before/After比較写真（施術後） -->
+        <img class="ba-after-img" src="images/before-after/case1-after.jpg" alt="施術後の頬周りの写真">
+      </div>
+      <span class="ba-label before">BEFORE</span>
+      <span class="ba-label after">AFTER</span>
+      <div class="ba-divider">
+        <div class="ba-handle" tabindex="0" role="slider" aria-label="Before After 比較スライダー" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+        </div>
+      </div>
+    </div>
+    <div class="ba-caption reveal">
+      <span>毛穴</span><span>ツヤ</span><span>明るい印象</span><span>フェイスラインの印象</span>
+    </div>
+    <div class="ba-set-nav reveal" id="baSetNav" aria-hidden="true">
+      <button class="active" data-index="0" aria-label="症例1"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 08: なぜマリムーブなのか -->
+<!-- ========================= -->
+<section class="section" id="why-marimove">
+  <div class="section-inner">
+    <p class="eyebrow reveal">WHY MARI MOVE</p>
+    <h2 class="section-heading reveal">顔に使うものだからこそ<br>ワックス剤にもこだわりました</h2>
+    <div class="reason-list">
+      <div class="reason-item reveal">
+        <div class="reason-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+        <div>
+          <h3>低温設計</h3>
+          <p>熱すぎるワックスではなく、心地よい温度で施術を受けていただけます。</p>
+        </div>
+      </div>
+      <div class="reason-item reveal">
+        <div class="reason-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21c-4-3-7-6.2-7-10a7 7 0 0114 0c0 3.8-3 7-7 10z"/></svg></div>
+        <div>
+          <h3>肌への負担に配慮</h3>
+          <p>デリケートな顔だからこそ、負担をかけない設計にこだわっています。</p>
+        </div>
+      </div>
+      <div class="reason-item reveal">
+        <div class="reason-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12l5 5L20 6"/></svg></div>
+        <div>
+          <h3>フェイシャルケアとして設計</h3>
+          <p>脱毛のためだけでなく、スキンケアの一環として受けていただけます。</p>
+        </div>
+      </div>
+    </div>
+    <p class="reassure-quote reveal">「熱そう」「痛そう」「肌への負担が心配」——<br>そんな不安に配慮した施術です。</p>
+    <div class="reason-photos reveal">
+      <figure>
+        <img src="images/product/h2switch-bottle.jpg" alt="REIVYで使用するマリムーブフェイシャルワックス H2 SWITCH">
+      </figure>
+      <figure>
+        <img src="images/product/wax-drip.jpg" alt="低温設計のワックスがスティックからやさしく滴る様子">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 09: 一般的な顔そりとの違い -->
+<!-- ========================= -->
+<section class="section" id="compare">
+  <div class="section-inner">
+    <p class="eyebrow reveal">COMPARISON</p>
+    <h2 class="section-heading reveal">カミソリ・顔そりとの違い</h2>
+    <div class="compare-wrap reveal">
+      <table class="compare">
+        <thead>
+          <tr>
+            <th>比較項目</th>
+            <th>カミソリ・顔そり</th>
+            <th>REIVY Facial Wax</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>産毛</td><td>表面をカット</td><td class="good">毛根からやさしく除去</td></tr>
+          <tr><td>古い角質</td><td>△</td><td class="good">○</td></tr>
+          <tr><td>毛穴汚れ</td><td>△</td><td class="good">○</td></tr>
+          <tr><td>生え始め</td><td>チクチクしやすい</td><td class="good">チクチクしにくい</td></tr>
+          <tr><td>スキンケア発想</td><td>△</td><td class="good">○</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="compare-note reveal">※どちらの方法にもそれぞれの良さがあります。REIVYではお肌を整える視点から施術をご提案しています。</p>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 10: 施術の流れ -->
+<!-- ========================= -->
+<section class="section" id="flow">
+  <div class="section-inner">
+    <p class="eyebrow reveal">FLOW</p>
+    <h2 class="section-heading reveal">施術の流れ</h2>
+    <div class="flow-intro-photo reveal">
+      <img src="images/product/wax-warmer.jpg" alt="施術で使用するワックスウォーマーとマリムーブフェイシャルワックス">
+    </div>
+    <div class="steps">
+      <div class="step-item reveal">
+        <span class="step-num">1</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>カウンセリング</h3><p>肌の状態やお悩みを丁寧にお伺いします。</p></div>
+          <div class="step-photo"><img src="images/treatment/treatment-counseling.jpg" alt="カウンセリングの様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">2</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>クレンジング</h3><p>メイクや汚れをやさしくオフします。</p></div>
+          <div class="step-photo"><img src="images/treatment/treatment-cleansing.jpg" alt="クレンジングの様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">3</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>肌状態チェック</h3><p>施術前に肌の状態を確認します。</p></div>
+          <div class="step-photo"><img class="pos-bottom" src="images/treatment/treatment-checking.jpg" alt="施術前の肌状態チェックの様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">4</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>高機能美容液</h3><p>肌の水分量を整え、お肌を守ります。</p></div>
+          <div class="step-photo"><img src="images/treatment/treatment-serum.jpg" alt="高機能美容液を施術中の様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">5</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>マリムーブ フェイシャルワックス</h3><p>低温設計のワックスで、産毛・古い角質・毛穴汚れをやさしく除去します。</p></div>
+          <div class="step-photo"><img class="pos-bottom" src="images/treatment/treatment-applying.jpg" alt="マリムーブフェイシャルワックス施術の手元の様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">6</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>超保湿・超鎮静・超密着マスク</h3><p>マリムーブチェンジマスクを使用します。</p></div>
+          <div class="step-photo"><img src="images/treatment/treatment-mask.jpg" alt="マリムーブチェンジマスクを施術中の様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">7</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>ベッドマッサージ</h3><p>お肌を鎮静中、頭皮も整え、さらにリフトアップ効果にもつながります。</p></div>
+          <div class="step-photo"><img src="images/treatment/treatment-massage.jpg" alt="ベッドマッサージの様子"></div>
+        </div>
+      </div>
+      <div class="step-item reveal">
+        <span class="step-num">8</span>
+        <div class="step-body-row">
+          <div class="step-text"><h3>お仕上げ</h3><p>整った肌を確認しながら仕上げていきます。</p></div>
+          <div class="step-photo"><img src="images/treatment/treatment-finishing.jpg" alt="お仕上げの様子"></div>
+        </div>
+      </div>
+    </div>
+    <p class="step-duration reveal">施術時間：約90分（カウンセリング・パック込み）</p>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 11: 自分のための90分 -->
+<!-- ========================= -->
+<section class="section story-section" id="story">
+  <div class="section-inner">
+    <p class="eyebrow reveal">FOR YOURSELF</p>
+    <h2 class="section-heading reveal">誰かのためじゃなく<br>自分のために使う90分</h2>
+    <p class="reveal">家事。仕事。育児。</p>
+    <p class="reveal">毎日やることに追われていると、自分のことはつい後回しになってしまう。</p>
+    <p class="reveal">REIVYにいる時間くらいは、一度すべてを置いて、自分のための時間を過ごしてほしい。</p>
+    <div class="story-staff reveal">
+      <div class="story-staff-photo">
+        <img src="images/staff/staff-portrait-bust.jpg" alt="REIVYで施術を担当するオーナー">
+      </div>
+      <div class="story-staff-text">
+        <strong>あなたの90分に、寄り添うオーナー</strong>
+        <!-- EDIT: オーナー名・紹介文の詳細はサロン様にてご確認のうえ差し替えてください -->
+        「自分の肌を、もっと好きになってほしい」——そんな想いでREIVYを始めました。<br>お客様一人ひとりのお肌と丁寧に向き合い、心を込めて施術しています。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 12: REIVYについて -->
+<!-- ========================= -->
+<section class="section about-brand" id="about">
+  <div class="section-inner">
+    <p class="eyebrow reveal">ABOUT REIVY</p>
+    <h2 class="section-heading reveal">REIVY（リ・アイビー）について</h2>
+    <div class="brand-parts">
+      <div class="brand-part reveal">
+        <p class="word">Re ー 自分に戻る</p>
+        <ul>
+          <li>Relax</li><li>Relief</li><li>Reset</li>
+        </ul>
+        <p>日常から少し離れ、自分のための時間を過ごすことで、心に余裕を取り戻す。そんな想いを込めています。</p>
+      </div>
+      <div class="brand-part reveal">
+        <p class="word">ivy ー 人生を共にする</p>
+        <ul><li>花言葉「人生を共にする」</li></ul>
+        <p>お客様の日々にそっと寄り添い、一緒に時間を重ねていける存在でありたい、という想いを込めています。</p>
+      </div>
+    </div>
+    <p class="brand-message reveal">日常の中に、<br>自分に戻るためのひとときを。</p>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 13: お客様の声 -->
+<!-- ========================= -->
+<section class="section" id="voice">
+  <div class="section-inner">
+    <p class="eyebrow reveal">VOICE</p>
+    <h2 class="section-heading reveal">お客様の声</h2>
+    <div class="testimonial-track">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-photo"><!-- REPLACE: お客様写真（任意） --></div>
+        <p class="testimonial-meta">お客様の声が入ります</p>
+        <p>お客様の声が入ります。実際のお客様の声を掲載予定です。</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-photo"><!-- REPLACE: お客様写真（任意） --></div>
+        <p class="testimonial-meta">お客様の声が入ります</p>
+        <p>お客様の声が入ります。実際のお客様の声を掲載予定です。</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-photo"><!-- REPLACE: お客様写真（任意） --></div>
+        <p class="testimonial-meta">お客様の声が入ります</p>
+        <p>お客様の声が入ります。実際のお客様の声を掲載予定です。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 14: 初回体験（料金） -->
+<!-- ========================= -->
+<section class="section" id="pricing">
+  <div class="section-inner">
+    <p class="eyebrow reveal">FIRST TRIAL</p>
+    <h2 class="section-heading reveal">初めての方限定</h2>
+    <div class="pricing-card reveal">
+      <span class="pricing-tag">初めての方限定</span>
+      <p class="pricing-service">REIVY Facial Wax<br><small style="font-size:12px;color:var(--color-light-text);font-family:var(--font-jp-sans);">Mari Move Facial Wax</small></p>
+      <p class="price-regular">通常価格<span class="amount">¥13,000</span></p>
+      <p class="price-arrow">↓</p>
+      <div class="price-special">
+        <span class="label">初回体験</span>
+        <span class="amount">¥7,000</span>
+      </div>
+      <div class="pricing-details">
+        <span>施術時間：約90分</span>
+        <span>カウンセリング・パック込み</span>
+      </div>
+      <a href="#" class="btn btn-primary js-line-btn">LINEで初回体験を予約する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 15: FAQ -->
+<!-- ========================= -->
+<section class="section" id="faq">
+  <div class="section-inner">
+    <p class="eyebrow reveal">FAQ</p>
+    <h2 class="section-heading reveal">よくあるご質問</h2>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> フェイシャルワックスは痛いですか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">低温設計のワックスを使用し、お肌への負担に配慮した施術を行っております。感じ方には個人差がございますので、初めての方にはカウンセリングで丁寧にご説明いたします。</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> 赤みは出ますか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">施術後に一時的な赤みが出る場合がありますが、多くの場合は時間の経過とともに落ち着いていきます。肌の状態によって個人差がございます。<!-- サロン側確認事項：赤みの平均的な持続時間 --></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> 敏感肌でも施術できますか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">事前のカウンセリングで肌の状態を確認させていただいたうえで、施術の可否をご案内しております。ご不安な点があれば事前にご相談ください。<!-- サロン側確認事項：施術をお断りする肌状態の具体的な基準 --></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> どのくらいの頻度がおすすめですか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">毛周期に合わせて、一定の間隔でのご来店をおすすめしております。<!-- サロン側確認事項：推奨来店サイクル（例：3〜4週間ごと等） --></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> 来店前に顔を剃っても大丈夫ですか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">ワックスは毛の長さを利用して除去するため、事前に剃ってしまうと施術の効果が十分に発揮できない場合があります。<!-- サロン側確認事項：推奨する毛の長さの目安 --></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> メイクをしたまま来店できますか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">はい、メイクをされたままご来店いただけます。施術前に丁寧にクレンジングいたしますのでご安心ください。</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> 施術後にメイクできますか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">肌が落ち着いてからのメイクをおすすめしております。<!-- サロン側確認事項：施術後メイクまでの推奨待機時間 --></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span><span class="q-mark">Q.</span> 施術を受けられない場合はありますか？</span>
+          <span class="faq-icon"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">肌の状態やご体調によっては施術をお受けいただけない場合がございます。<!-- サロン側確認事項：施術をお断りする具体的な条件（妊娠中、特定の肌疾患など） --></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION 16: 最終CTA -->
+<!-- ========================= -->
+<section class="section final-cta" id="final-cta">
+  <div class="section-inner">
+    <p class="eyebrow reveal">REIVY Facial Wax</p>
+    <h2 class="section-heading reveal">「隠す」ことを頑張るより<br>素肌そのものを好きになれるように</h2>
+    <p class="section-lead reveal">究極のクレンジングで、あなたの素肌を一度リセット。</p>
+    <a href="#" class="btn btn-primary js-line-btn reveal">LINEで初回体験を予約する</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ========================= -->
+<!-- フッター -->
+<!-- ========================= -->
+<footer class="site-footer">
+  <p class="footer-logo">REIVY</p>
+  <div class="footer-info">
+    <!-- EDIT: サロン住所 -->
+    <p>〒000-0000 住所未確定</p>
+    <!-- EDIT: 営業時間 -->
+    <p>営業時間：10:00〜19:00</p>
+    <!-- EDIT: 定休日 -->
+    <p>定休日：不定休</p>
+  </div>
+  <div class="footer-sns">
+    <!-- EDIT: Instagram URL -->
+    <a href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" class="js-line-btn">LINE予約</a>
+  </div>
+  <p class="footer-copyright">&copy; 2026 REIVY. All rights reserved.</p>
+</footer>
+
+<!-- ========================= -->
+<!-- スマホ固定CTA -->
+<!-- ========================= -->
+<div class="fixed-cta" id="fixedCta">
+  <a href="#" class="btn btn-primary js-line-btn">LINEで予約する</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
