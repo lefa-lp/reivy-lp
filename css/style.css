@@ -769,7 +769,9 @@ table.compare tr:last-child td { border-bottom: none; }
 .story-section p + p { margin-top: var(--space-2); }
 .story-staff {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 14px;
   margin-top: var(--space-4);
   padding-top: var(--space-4);
@@ -788,6 +790,8 @@ table.compare tr:last-child td { border-bottom: none; }
   object-fit: cover;
 }
 .story-staff-text {
+  flex: 1;
+  min-width: 0;
   font-size: 12.5px;
   opacity: 0.85;
   line-height: 1.7;
@@ -1148,5 +1152,11 @@ table.compare tr:last-child td { border-bottom: none; }
     aspect-ratio: 4 / 3;
     margin-top: 0;
     flex: none;
+  }
+
+  .story-staff {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
   }
 }
