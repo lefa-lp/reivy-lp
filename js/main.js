@@ -3,7 +3,7 @@
 // =========================
 
 // EDIT: LINE予約URL — ここを変更するとページ内の全LINEボタンに反映されます
-const LINE_URL = "ここにLINE予約URLを入力してください";
+const LINE_URL = "https://lin.ee/XZyNSF8Q";
 
 document.addEventListener("DOMContentLoaded", () => {
   applyLineUrl();
