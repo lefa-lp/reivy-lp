@@ -981,6 +981,13 @@ table.compare tr:last-child td { border-bottom: none; }
   color: var(--color-light-text);
   flex-wrap: wrap;
 }
+.pricing-note {
+  margin: -10px 0 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--color-light-text);
+  text-align: center;
+}
 .pricing-card .btn { margin-top: var(--space-2); }
 
 /* =========================
